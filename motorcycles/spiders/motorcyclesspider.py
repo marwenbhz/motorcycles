@@ -9,7 +9,7 @@ from scrapy.crawler import CrawlerProcess
 class MotorcyclesspiderSpider(scrapy.Spider):
     name = 'motorcyclesspider'
     allowed_domains = ['justbikes.com.au']
-    start_urls = ['http://justbikes.com.au/']
+    start_urls = ['https://www.justbikes.com.au/motorcycles-for-sale/search']
     custom_settings = {
     'LOG_FILE': 'logs/motorcycles.log',
     'LOG_LEVEL':'ERROR'
